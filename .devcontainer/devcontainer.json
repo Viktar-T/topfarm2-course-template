@@ -1,7 +1,7 @@
 {
   "name": "Python 3.11 DevContainer",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "python -m pip install --upgrade pip setuptools wheel && python -m pip install --no-cache-dir --only-binary=:all: --progress-bar off -r requirements.txt",
   "customizations": {
     "vscode": {
       "extensions": [

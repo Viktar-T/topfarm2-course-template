@@ -21,7 +21,7 @@ Create your repo from this template and name it:
 ## 2) Open a Codespace
 1. In your new repo, click the **Code** dropdown.
 2. Select the **Codespaces** tab.
-3. Click **Create codespace on main**. Wait ~1–2 minutes for setup.
+3. Click **Create codespace on main**. First build can take a few minutes while packages install. If it looks stuck, press **Cmd/Ctrl+Shift+P → View Creation Log**.
 
 ## 3) Open and run the Lesson 1 notebook
 1. In VS Code (web), open the Explorer sidebar.
